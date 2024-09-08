@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signup and Login Form</title>
+    <link rel="stylesheet" type="text/css" href="css/signup-login-form.css" />
+    <link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/a81368914c.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="img">
+        <img src="assets/bg.svg" />
+      </div>
+      <div class="login-content">
+        <!-- Signup Form -->
+        <form id="signupForm" class="form active" aria-labelledby="signupTitle" onsubmit="return validateSignup()">
+          <img src="assets/avatar.svg" alt="Avatar Icon" />
+          <h2 id="signupTitle" class="title">Sign Up</h2>
+  
+          <div class="input-div one">
+            <div class="i">
+              <i class="fas fa-user" aria-hidden="true"></i>
+            </div>
+            <div class="div">
+              <label for="firstName" class="sr-only">First Name</label>
+              <input type="text" class="input" id="firstName" placeholder="First Name" required />
+            </div>
+          </div>
+  
+          <div class="input-div one">
+            <div class="i">
+              <i class="fas fa-user" aria-hidden="true"></i>
+            </div>
+            <div class="div">
+              <label for="lastName" class="sr-only">Last Name</label>
+              <input type="text" class="input" id="lastName" placeholder="Last Name" required />
+            </div>
+          </div>
+  
+          <div class="input-div one">
+            <div class="i">
+              <i class="fas fa-envelope" aria-hidden="true"></i>
+            </div>
+            <div class="div">
+              <label for="email" class="sr-only">Email</label>
+              <input type="email" class="input" id="email" placeholder="Email" required />
+            </div>
+          </div>
+  
+          <div class="input-div one">
+            <div class="i">
+              <i class="fas fa-lock" aria-hidden="true"></i>
+            </div>
+            <div class="div">
+              <label for="password" class="sr-only">Password</label>
+              <input type="password" class="input" id="password" placeholder="Password" required />
+            </div>
+          </div>
+  
+          <input type="submit" class="btn" value="Sign Up" />
+          <a href="#" class="toggle-link" onclick="showLoginForm()">Already have an account? <span class="login-here">Login here</span></a>
+          <div id="signupFeedback" class="feedback-message"></div>
+        </form>
+  
+        <!-- Login Form -->
+        <form id="loginForm" class="form" aria-labelledby="loginTitle" onsubmit="return validateLogin()">
+          <img src="assets/avatar.svg" alt="Avatar Icon" />
+          <h2 id="loginTitle" class="title">Login</h2>
+  
+          <div class="input-div one">
+            <div class="i">
+              <i class="fas fa-user" aria-hidden="true"></i>
+            </div>
+            <div class="div">
+              <label for="loginEmail" class="sr-only">Email</label>
+              <input type="email" class="input" id="loginEmail" placeholder="Email" required />
+            </div>
+          </div>
+  
+          <div class="input-div pass">
+            <div class="i">
+              <i class="fas fa-lock" aria-hidden="true"></i>
+            </div>
+            <div class="div">
+              <label for="loginPassword" class="sr-only">Password</label>
+              <input type="password" class="input" id="loginPassword" placeholder="Password" required />
+            </div>
+          </div>
+  
+          <input type="submit" class="btn" value="Login" />
+          <a href="#" class="toggle-link" onclick="showSignupForm()">Don't have an account? <span>Sign up here</span> </a>
+          <div id="loginFeedback" class="feedback-message"></div>
+        </form>
+      </div>
+    </div>
+
+    <script src="./js/signupLoginForm.js"></script>
+  </body>
+</html>

@@ -1,0 +1,148 @@
+[
+    {
+        "question": "What does the element in HTML5 represent?",
+        "answers": [
+          "A section of content that is self-contained",
+          "An inline element",
+          "A block of text within a paragraph",
+          "A navigational link"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "Which HTML5 element is used for playing audio files?",
+        "answers": ["<audio>", "<video>", "<media>", "<sound>"],
+        "correctAnswer": 0
+      },
+      {
+        "question": "Which of the following is a new input type introduced in HTML5?",
+        "answers": ["date", "checkbox", "text", "submit"],
+        "correctAnswer": 0
+      },
+      {
+        "question": "Which element is used to embed an external resource, such as a webpage or a video, into an HTML document?",
+        "answers": ["<media>", "<object>", "<iframe>", "<embed>"],
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which CSS property controls the text size?",
+        "answers": ["text-size", "font-size", "size", "font-style"],
+        "correctAnswer": 1
+      },
+      {
+        "question": "What is the correct syntax to add a border with a width of 1px, solid style, and red color to an element in CSS?",
+        "answers": [
+          "border-color: red solid 1px;",
+          "border: 1px solid red;",
+          "border-width: 1px; border-style: solid; border-color: red;",
+          "border-style: solid 1px red;"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which property is used to change the background color of an element in CSS?",
+        "answers": ["bgcolor", "color", "background-color", "background"],
+        "correctAnswer": 2
+      },
+      {
+        "question": "How do you apply a class to an element in HTML?",
+        "answers": [
+          "<div id='classname'>",
+          "<div style='classname'>",
+          "<div name='classname'>",
+          "<div class='classname'>"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "question": "Which is the correct way to apply multiple background images to an element in CSS?",
+        "answers": [
+          "background-images: url(image1.png) url(image2.png);",
+          "background-image: url(image1.png), url(image2.png);",
+          "background: image1.png, image2.png;",
+          "background-image: url(image1.png) and url(image2.png);"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "How can you make a list that displays its items with squares instead of bullets?",
+        "answers": [
+          "marker-style: square;",
+          "list-type: square;",
+          "bullet-type: square;",
+          "list-style-type: square;"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "question": "Which is the correct way to declare a variable in JavaScript?",
+        "answers": [
+          "let x = 5;",
+          "var x = 5;",
+          "const x = 5;",
+          "All of the above"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "question": "What is the output of console.log(typeof 42); in JavaScript?",
+        "answers": ["number", "string", "integer", "float"],
+        "correctAnswer": 0
+      },
+      {
+        "question": "How do you create a function in JavaScript?",
+        "answers": [
+          "function: myFunction() {}",
+          "function myFunction() {}",
+          "def myFunction() {}",
+          "create function myFunction() {}"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "What will be the output of console.log('2' + 2); in JavaScript?",
+        "answers": ["\"22\"", "\"4\"", "Error", "4"],
+        "correctAnswer": 0
+      },
+      {
+        "question": "How do you write a for loop in JavaScript?",
+        "answers": [
+          "for (i = 0; i < 5; i++)",
+          "for (let i = 0; i < 5; i++) {}",
+          "for (i = 0 to 5) {}",
+          "for i in range(0, 5) {}"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which event occurs when the user clicks on an HTML element in JavaScript?",
+        "answers": ["onmouseover", "onpress", "onclick", "onhover"],
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which method removes the last element from an array in JavaScript?",
+        "answers": ["unshift()", "pop()", "push()", "shift()"],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which keyword is used to return a value from a function in JavaScript?",
+        "answers": ["continue", "yield", "return", "break"],
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which method is used to round a number to the nearest integer in JavaScript?",
+        "answers": [
+          "Math.round()",
+          "Math.floor()",
+          "Math.ceil()",
+          "Math.random()"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "question": "Which of the following is a feature of React?",
+        "answers": ["Virtual DOM", "Data Binding", "JSX", "All of the above"],
+        "correctAnswer": 3
+      }
+    
+]

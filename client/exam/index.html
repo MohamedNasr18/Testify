@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="exam-container">
+        <div class="question-section">
+            <div id="question-container"></div>
+            <div id="answers-container"></div>
+            <div class="controls">
+                <button id="prev-btn" class="control-btn">Previous</button>
+                <button id="flag-btn" class="control-btn"><i class="bi bi-flag"></i></button>
+                <button id="next-btn" class="control-btn">Next</button>
+            </div>
+            
+        </div>
+    </div>
+   
+    <nav class="question-nav">
+        <div class="img">
+            <img src="../assets/avatar.svg" />
+          </div>
+         <h3 class="stName"></h3>
+         <p>logout</p>
+         <div class="timer" id="timer">10:00</div>
+        <ul id="flagged-questions"></ul>
+        <button id="submit-btn" class="control-btn">Submit</button> <!-- Submit Button -->
+
+    </nav>
+    <script src="./script.js"></script>
+</body>
+</html>
